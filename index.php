@@ -30,7 +30,7 @@ if (isset($_SESSION['usuario']) && !empty($_SESSION['usuario'])) {
     <!-- *** ESTRUCTURA SEMÁNTICA *** -->
     <!-- Header (encabezado de la página, zona superior) -->
     <header>
-      <h2 class="logo">KEYGUARDIAN</h2>
+      <h2 class="logo" onclick="window.location.href = 'index.php';">KEYGUARDIAN</h2>
       <!-- nav (el navegador de toda la web) -->
       <nav>
         <a href="info.php" class="info">INFORMACIÓN</a>

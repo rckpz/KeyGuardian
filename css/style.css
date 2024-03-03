@@ -48,10 +48,11 @@ header {
   grid-row: 2/2;
 }
 .logo {
-  grid-column: 3/22;
+  grid-column: 3/4;
   color: var(--color-blancopuro);
   grid-row: 1/1;
   font-size: 2.4rem;
+  cursor: pointer;
 }
 header nav {
   grid-column: 22/22;
@@ -493,4 +494,18 @@ label {
 /* Estilo para los enlaces de las opciones del usuario al pasar el mouse */
 .opciones-usuario a:hover {
   background-color: var(--color-blancopuro);
+}
+
+.contenido-info,
+.contenido-consejos {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  color: var(--color-blancopuro);
+}
+.contenido-info li,
+.contenido-consejos li {
+  margin-bottom: 20px;
 }

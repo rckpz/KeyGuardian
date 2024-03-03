@@ -31,7 +31,7 @@ if (!isset($_SESSION['usuario']) || empty($_SESSION['usuario'])) {
         <!-- *** ESTRUCTURA SEMÁNTICA *** -->
         <!-- Header (encabezado de la página, zona superior) -->
         <header>
-            <h2 class="logo">KEYGUARDIAN</h2>
+            <h2 class="logo" onclick="window.location.href = 'index.php';">KEYGUARDIAN</h2>
             <!-- nav (el navegador de toda la web) -->
             <nav>
                 <a href="info.php" class="info">INFORMACIÓN</a>
@@ -47,9 +47,9 @@ if (!isset($_SESSION['usuario']) || empty($_SESSION['usuario'])) {
         <<main>
             <section class="historial">
                 <h2>Historial de Contraseñas</h2>
-                <div class="contraseñas" id="contraseñas">
+                <section class="contraseñas" id="contraseñas">
                     <!-- Aquí se mostrará dinámicamente el historial de contraseñas -->
-                </div>
+                </section>
             </section>
             </main>
             <!-- Footer (final de la página, zona inferior) -->
